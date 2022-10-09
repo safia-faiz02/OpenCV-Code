@@ -1,0 +1,16 @@
+fac detection merely detects the presence of a face in an img, 
+while face recognition involves identifying whose face it involves
+
+face detection is done by using classifier
+classifier is an algo that decides whether a given image is positive or negative
+whether the face is present or not
+
+classifier needs to be trained on 1000s or 10s of 1000s of images with and without faces
+opencv comes with alot of pre-trained classifiers
+
+#haar cascades
+#prone to noise in an image
+
+face detection does not involve skin tone or the colors that are present in an image
+look at the object of an img and using the edges treis to determine whether its a face or not
+dont need color in our img
